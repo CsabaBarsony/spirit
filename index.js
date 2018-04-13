@@ -1,6 +1,6 @@
 import {Statechart} from 'scion-core'
 
-export const spirit = (statechart, opts) => {
+module.exports = spirit = (statechart, opts) => {
   let sc
 
   const options = opts || {}
